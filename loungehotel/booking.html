@@ -1,0 +1,393 @@
+/<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LoungeHotel | Booking</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" m?????????edia="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Adamina_400.font.js"></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+<script type="text/javascript" src="js/script.js" ></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+<![endif]-->
+</head>
+<body id="page3">
+  <div class="bg1">
+    <div class="bg2">
+      <div class="main">
+        <!-- header -->
+        <header>
+          <h1><a href="index.html" id="logo">LoungeHotel</a></h1>
+          <div class="department"> MATHARA, SRILANKA<br>
+            <span>Freephone: &nbsp; 076 1748364</span> </div>
+        </header>
+        <div class="box">
+          <nav>
+            <ul id="menu">
+              <li><a href="index.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class="active"><a href="booking.html">Booking</a></li>
+              <li><a href="rooms.html">Rooms</a></li>
+              <li><a href="locations.html">Locations</a></li>
+            </ul>
+          </nav>
+          <!-- header end -->
+          <!-- content -->
+          <article id="content">
+            <div class="box1">
+              <div class="wrapper">
+                <form action="#" id="form1">
+                  <h2>Book a Room</h2>
+                  <fieldset>
+                    <div class="row">
+                      <input type="text" class="input">
+                      Your Name: </div>
+                    <div class="row">
+                      <input type="text" class="input">
+                      E-Mail Address: </div>
+                    <div class="row">
+                      <input type="text" class="input">
+                      Home Phone: </div>
+                    <div class="row">
+                      <div class="select1">
+                        <select>
+                          <option>&nbsp;</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      Length of Stay: </div>
+                    <div class="row">
+                      <div class="select1">
+                        <select>
+                          <option>&nbsp;</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      Number in Party: </div>
+                    <div class="row">
+                      <div class="select2">
+                        <select>
+                          <option>&nbsp;</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="select2">
+                        <select>
+                          <option>&nbsp;</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="select2">
+                        <select>
+                          <option>&nbsp;</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      Arrival Date: </div>
+                      <div>
+                        <form x-on:submit="$store.user.updateUser">
+                            <!-- Date selector -->
+                            <div class="mb-3">
+                                <label for="checkin" class="form-label">Check-in Date</label>
+                                <input type="date" class="form-control" id="checkin"
+                                    x-model="$store.user.reservation.check_in" />
+                            </div>
+                    <div class="row_textarea"> Additional Comments:
+                      <textarea cols="1" rows="1"></textarea>
+                    </div>
+                    <div class="wrapper"> <a href="#" class="button1">Send</a> <a href="#" class="button1">Clear</a> </div>
+                  </fieldset>
+                </form>
+                <div class="col2 pad">
+                  <h2><img src="images/title_marker1.jpg" alt="">Best Propositions of This Month</h2>
+                  <div class="wrapper line1">
+                    <div class="col3">
+                      <figure class="pad_bot3"><img src="images/page3_img1.jpg" alt=""></figure>
+                      <p class="pad_bot1"><strong class="color3">Lorem ipsum dolor amet consectetur</strong></p>
+                      <p>Adipisicing elito eiusmod tempor incididunt ut labore dolore magna.</p>
+                      <ul class="list2">
+                        <li><span>2</span>Rooms</li>
+                        <li><span>4</span>Beds</li>
+                      </ul>
+                      <a href="#" class="button2">Book Room</a> </div>
+                    <div class="col3 pad_left2">
+                      <figure class="pad_bot3"><img src="images/page3_img4.jpg" alt=""></figure>
+                      <p class="pad_bot1"><strong class="color3">Lorem ipsum dolor amet consectetur</strong></p>
+                      <p>Ut enim ad minim veniam nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                      <ul class="list2">
+                        <li><span>2</span>Rooms</li>
+                        <li><span>4</span>Beds</li>
+                      </ul>
+                      <a href="#" class="button2">Book Room</a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pad">
+              <div class="wrapper line3">
+                <div class="col2">
+                  <h2>About Booking</h2>
+                  <p class>At the hotel, rooms come with a desk. Each room includes an electric tea pot and a private bathroom with a shower and free toiletries, while selected rooms contain a kitchenette equipped with a fridge. Guest rooms include a safety deposit box.
+
+                    At Sinharaja Forest Gate you'll find a restaurant serving African, American and Argentinian cuisine. Dairy-free, halal and kosher options can also be requested.
+                    
+                    The area is popular for fishing, and car rental is available at the accommodation.
+                    
+                    The nearest airport is Koggala Airport, 56 miles from Sinharaja Forest Gate.
+                    
+                    Couples in particular like the location – they rated it 9.3 for a two-person trip.
+                    
+                    Distance in property description is calculated using.
+                    
+                    Show</p>
+                  <div class="wrapper">
+                    <figure class="left marg_right1"><img src="images/page3_img3.jpg" alt=""></figure>
+                  </div>
+                  <div class="pad_bot2">
+                    <div class="wrapper line2">
+                      <div class="col1">
+                        <ul class="list1">
+                          <li><a href="#">Inventore veritatis et quasi architecto</a></li>
+                          <li><a href="#">Beatae vitae dicta sunt explicabo</a></li>
+                          <li><a href="#">Nemo enim ipsam voluptatem quivolupta</a></li>
+                          <li><a href="#">Sit aspernatur aut odit aut fugit sed</a></li>
+                        </ul>
+                      </div>
+                      <div class="col1 pad_left1">
+                        <ul class="list1">
+                          <li><a href="#">Neque porro quisquam est, qui dolorem</a></li>
+                          <li><a href="#">Ipsum quia dolor amet consectetur</a></li>
+                          <li><a href="#">Adipisci velit, sed quia non numquam</a></li>
+                          <li><a href="#">Eius modi tempora incidunt ut</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="button1">Read More</a> </div>
+                <div class="col1 pad_left1">
+                  <div id="app" x-data="app" class="container">
+                    <header>
+                       
+                    </header>
+                    <main>
+                        <div class="d-flex">
+                            <div>
+                                <form x-on:submit="$store.user.updateUser">
+                                    <!-- Date selector -->
+                                    <div class="mb-3">
+                                        <label for="checkin" class="form-label">Check-in Date</label>
+                                        <input type="date" class="form-control" id="checkin"
+                                            x-model="$store.user.reservation.check_in" />
+                                    </div>
+            
+                                    <div class="mb-3">
+                                        <label for="checkout" class="form-label">Check-Out Date</label>
+                                        <input type="date" class="form-control" id="checkout"
+                                            x-model="$store.user.reservation.check_out" />
+                                    </div>
+            
+                                    <!-- Type of the room -->
+                                    <div class="mb-3">
+                                        <label for="room_cost" class="form-label">Room Type</label>
+                                        <select x-model="$store.user.reservation.room_cost" name="room_cost" id="room_cost"
+                                            class="form-control">
+                                            <option value="">Select</option>
+                                            <option value="1">Single Bed</option>
+                                            <option value="2">Double</option>
+                                            <option value="3">Triple</option>
+                                            
+                                            <template x-for="room in $store.accommodation.rooms">
+                                                <option x-bind:value="room.price">
+                                                    <span x-text="room.type"></span> - Rs. <span x-text="room.price"></span>
+                                                </option>
+                                            </template>
+                                        </select>
+                                    </div>
+            
+                                    <!-- Number of rooms -->
+                                    <div class="mb-3">
+                                        <label for="number_of_rooms" class="form-label">Number of rooms</label>
+                                        <select x-model="$store.user.reservation.number_of_rooms" name="number_of_rooms"
+                                            id="number_of_rooms" class="form-control">
+                                            <option value="">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+            
+                                    <!-- Number of guests -->
+                                    <div class="mb-3">
+                                        <label for="number_of_guests" class="form-label">Number of Adults</label>
+                                        <select x-model="$store.user.reservation.adults" name="number_of_guests"
+                                            id="number_of_guests" class="form-control">
+                                            <option value="">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+            
+                                    <div class="mb-3">
+                                        <label for="number_of_guests" class="form-label">Number of Children</label>
+                                        <select x-model="$store.user.reservation.children" name="number_of_guests"
+                                            id="number_of_guests" class="form-control">
+                                            <option value="">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+            
+                                    <!-- children above age of 5 -->
+                                    <div class="mb-3">
+                                        <label for="children_above_five" class="form-label">Children Above 5yrs</label>
+                                        <input type="number" min="0" max="2" class="form-control" id="children_above_five"
+                                            x-model="$store.user.reservation.children_above_five" />
+                                    </div>
+            
+                                     <!-- extra bed -->
+                                     <div class="mb-3">
+                                        <label for="extra_bed" class="form-label">Extra Bed</label>
+                                        <input type="number" min="0" max="2" class="form-control" id="extra_bed"
+                                            x-model="$store.user.reservation.extra_bed" />
+                                    </div>
+            
+                                    <!-- adventures -->
+                                    <div class="mb-3">
+                                        <h2>Adventures</h2>
+            
+                                        <div class="mb-3">
+                                            <label for="number_of_guests" class="form-label">Number of Adults Local</label>
+                                            <select x-model="$store.user.reservation.adventure_adults_local" name="adventure_adults_local"
+                                                id="number_of_guests" class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                        </div>
+                
+                                        <div class="mb-3">
+                                            <label for="number_of_guests" class="form-label">Number of Children Local</label>
+                                            <select x-model="$store.user.reservation.adventure_children_local" name="adventure_children_local"
+                                                id="number_of_guests" class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label for="number_of_guests" class="form-label">Number of Adults Foreign</label>
+                                            <select x-model="$store.user.reservation.adventure_adults_foreign" name="adventure_adults_foreign"
+                                                id="number_of_guests" class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                        </div>
+                
+                                        <div class="mb-3">
+                                            <label for="number_of_guests" class="form-label">Number of Children Foreign</label>
+                                            <select x-model="$store.user.reservation.adventure_children_foreign" name="adventure_children_foreign"
+                                                id="number_of_guests" class="form-control">
+                                                <option value="">Select</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                        </div>
+            
+                                    </div>
+            
+                                    <!-- coupon -->
+                                    <div class="mb-3">
+                                        <label for="promo_code" class="form-label">Coupon</label>
+                                        <input type="text" class="form-control" id="promo_code"
+                                            x-model="$store.user.reservation.promo_code" />
+                                    </div>
+
+                                   
+            
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-primary">
+                                        Book Now
+                                    </button>
+                                </form>
+                  <a href="#" class="button1">Read More</a> </div>
+              </div>
+            </div>
+          </article>
+          <!--content end-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <!-- footer -->
+    <footer>
+      <div class="col2">Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved | Design by <a target="_blank" href="http://www.templatemonster.com/">LoungeHotel.com</a>
+        <nav>
+          <ul id="footer_menu">
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="active"><a href="booking.html">Booking</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li class="last"><a href="locations.html">Locations</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col1 pad_left1">
+        <ul id="icons">
+          <li><a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
+          <li><a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""></a></li>
+          <li><a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""></a></li>
+          <li><a href="#" class="normaltip"><img src="images/icon4.jpg" alt=""></a></li>
+        </ul>
+      </div>
+      <!-- {%FOOTER_LINK} -->
+    </footer>
+    <!-- footer end -->
+  </div>
+  <script type="text/javascript">Cufon.now();</script>
+  </body>
+  </html>
